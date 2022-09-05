@@ -12,7 +12,7 @@ export default {
         svg: "svg",
     },
     IMAGE_URL: "https://cashfreelogo.cashfree.com/assets_images/pg",
-    DEFAULT_URL: "https://payments.cashfree.com/order/icons/netbanking/bdnr.png",
+    DEFAULT_URL: "https://cashfreelogo.cashfree.com/assets_images/pg/nb/svg/default.svg",
     PAYMENT_MODE_MAPPING: {
         aus: "nb",
         axis: "nb",
