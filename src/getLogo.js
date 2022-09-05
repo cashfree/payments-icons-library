@@ -2,12 +2,12 @@ import { nameMapping } from "./nameMapping.js";
 import utility from "./utility.js";
 import { getImageSize } from "./helpers.js";
 
-function getLogo(nick, size) {
+function getIcon(nick, size) {
     let imageSize = getImageSize(size);
     let returnObj = {
-        logo_name: "default",
-        logo_version: "1",
-        logo_url: utility.DEFAULT_URL,
+        icon_name: "default",
+        icon_version: "1",
+        icon_url: utility.DEFAULT_URL,
     };
     if(!nick) {
         return returnObj;
@@ -18,9 +18,9 @@ function getLogo(nick, size) {
         Object.keys(paymentMode).every((key) => {
             if (paymentMode[key].includes(nick)) {
                 returnObj = {
-                    logo_name: key,
-                    logo_version: "1",
-                    logo_url: `${utility.IMAGE_URL}/${utility.PAYMENT_MODE_MAPPING[key]}/${utility.SIZE_MAPPING[imageSize]}/${key}.${utility.IMAGE_TYPE[imageSize]}`,
+                    icon_name: key,
+                    icon_version: "1",
+                    icon_url: `${utility.IMAGE_URL}/${utility.PAYMENT_MODE_MAPPING[key]}/${utility.SIZE_MAPPING[imageSize]}/${key}.${utility.IMAGE_TYPE[imageSize]}`,
                 };
                 flag = false;
                 return false;
@@ -32,4 +32,4 @@ function getLogo(nick, size) {
     return returnObj;
 }
 
-export { getLogo };
+export { getIcon };

@@ -22,7 +22,10 @@ Finance-icons-library can help you fetch icons for most of the payment methods i
 ```
 import Icons from "finance-icons-library";
 
-let [sbiLogo, auLogo] = Icons.getLogos(['sbi', 'au'];
-let sbiLogo = Icons.getLogo('sbi');
-let banksLogo = Icons.getModesLogos('cardbanks');
+let sbiLogo = Icons.getIcon('sbi');
+// returns {icon_name: “sbi”, icon_url: “https://cashfreelogo.cashfree.com/assets_images/pg/nb/32/sbi.png“, icon_version: “1”}
+let [sbiLogo, auLogo] = Icons.getIcons(['sbi', 'au'];
+// returns [{icon_name: “sbi”, icon_url: “https://cashfreelogo.cashfree.com/assets_images/pg/nb/32/sbi.png“, icon_version: “1”}, ...]
+let banksLogo = Icons.getModesIcons('cardbanks');
+// returns [{icon_name: “sbi”, icon_url: “https://cashfreelogo.cashfree.com/assets_images/pg/nb/32/sbi.png“, icon_version: “1”}, ...]
 ```

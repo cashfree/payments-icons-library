@@ -1,5 +1,5 @@
-import { getLogo } from "./getLogo.js";
-function getLogos(nickArray, size) {
+import { getIcon } from "./getLogo.js";
+function getIcons(nickArray, size) {
     let imageSize = "";
     if (["sm", "md", "lg", "svg"].includes(size)) {
         imageSize = size;
@@ -8,9 +8,9 @@ function getLogos(nickArray, size) {
     }
     let returnArray = [];
     nickArray.forEach((element) => {
-        returnArray.push(getLogo(element, imageSize));
+        returnArray.push(getIcon(element, imageSize));
     });
     return returnArray;
 }
 
-export { getLogos };
+export { getIcons };

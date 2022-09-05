@@ -1,4 +1,4 @@
-import { getLogo } from "./getLogo.js";
-import { getLogos } from "./getLogos.js";
-import { getModesLogos } from "./getModesLogo.js";
-export { getLogo, getLogos, getModesLogos };
+import { getIcon } from "./getLogo.js";
+import { getIcons } from "./getLogos.js";
+import { getModesIcons } from "./getModesLogo.js";
+export { getIcon, getIcons, getModesIcons };
