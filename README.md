@@ -11,7 +11,7 @@ Note: add --save if you are using npm < 5.0.0
 In Node.js:
 
 ```
-var fp = require('finance-icons-library');
+var Icons = require('finance-icons-library');
 ```
 
 # Documentation
@@ -22,7 +22,7 @@ Finance-icons-library can help you fetch icons for most of the payment methods i
 ```
 import Icons from "finance-icons-library";
 
-let [sbiLogo, auLogo] = cs.getLogos(['sbi', 'au'];
-let sbiLogo = cs.getLogo('sbi');
-let banksLogo = cs.getModesLogos('cardbanks');
+let [sbiLogo, auLogo] = Icons.getLogos(['sbi', 'au'];
+let sbiLogo = Icons.getLogo('sbi');
+let banksLogo = Icons.getModesLogos('cardbanks');
 ```
