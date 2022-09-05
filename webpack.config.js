@@ -8,7 +8,7 @@ module.exports = {
         filename: "image-library.js",
         globalObject: "this",
         library: {
-            name: "financeIcons",
+            name: "paymentsIcons",
             type: "umd",
         },
     },
