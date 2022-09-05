@@ -10,7 +10,9 @@ Note: add --save if you are using npm < 5.0.0
 
 In Node.js:
 
+```
 var fp = require('finance-icons-library');
+```
 
 # Documentation
 
