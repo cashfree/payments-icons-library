@@ -58,7 +58,7 @@ export const nameMapping = {
             "jammu and kashmir bank",
             "j&k bank",
         ],
-        karnataka: ["karnataka", "karnataka bank"],
+        karnatka: ["karnataka", "karnataka bank", "karnatka", "karnatka bank"],
         karur: ["karur", "karur bank", "karur vysya bank", "karur vysya"],
         kotak: ["kotak", "kotak bank"],
         lvbc: ["lvbc", "lvb corporate"],
@@ -98,7 +98,6 @@ export const nameMapping = {
         jcb: ['jcb'],
         maestro: ['maestro'],
         mastercard: ['mastercard'],
-        paypal: ['paypal'],
         rupay: ['rupay'],
         visa: ['visa'],
     },
@@ -127,5 +126,6 @@ export const nameMapping = {
         ola: ['ola'],
         paytm: ['paytm'],
         phonepe: ['phonepe'],
+        paypal: ['paypal'],
     },
 };

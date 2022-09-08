@@ -40,7 +40,7 @@ export default {
         iob: "nb",
         iobc: "nb",
         jkb: "nb",
-        karnataka: "nb",
+        karnatka: "nb",
         karur: "nb",
         kotak: "nb",
         lvbc: "nb",
