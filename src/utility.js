@@ -83,6 +83,8 @@ export default {
         gpay: "upi",
         paytm: "upi",
         phonepe: "upi",
+        credpay: "upi",
+        whatsapp: "upi",
         airtel: "wallet",
         amazon: "wallet",
         freecharge: "wallet",
@@ -91,5 +93,6 @@ export default {
         ola: "wallet",
         paytm: "wallet",
         phonepe: "wallet",
+        flexipay: "cardless",
     },
 };
