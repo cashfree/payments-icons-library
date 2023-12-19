@@ -38,7 +38,7 @@ export const nameMapping = {
             "esfbr",
         ],
         federal: ["federal bank", "federal", "fdrlr"],
-        hdfc: ["hdfc", "hdfc bank", "hdfcr", "hdfcc"],
+        hdfc: ["hdfc", "hdfc bank", "hdfcr", "hdfcc", "hdfc bank limited"],
         icici: ["icici", "icici bank", "icicr", "icicc"],
         idfc: ["idfc", "idfc bank", "idfc first bank", "idfbr"],
         indian: ["indian", "indian bank", "idibr"],
