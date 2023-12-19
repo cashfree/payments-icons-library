@@ -40,15 +40,15 @@ var Icons = require('payments-icons-library');
 ## Basic Implementation:
 #### ES6
 ```
-import icons from "payments-icons-library";
+import { getIcon, getIcons, getModesIcons } from "payments-icons-library";
 
-let sbiIcon = icons.getIcon('sbi', 'sm');
+let sbiIcon = getIcon('sbi', 'sm');
 //{"icon_name": "sbi", "icon_url": "https://cashfreelogo.cashfree.com/assets_images/pg/nb/32/sbi.png", "icon_version": "1"}
 
-let [sbiIcon, auIcon] = icons.getIcons(['sbi', 'au'], 'sm');
+let [sbiIcon, auIcon] = getIcons(['sbi', 'au'], 'sm');
 //[{"icon_name": "sbi", "icon_url": "https://cashfreelogo.cashfree.com/assets_images/pg/nb/32/sbi.png", "icon_version": "1"}, ...]
 
-let banksLogo = icons.getModesIcons('cardbanks', 'sm');
+let banksLogo = getModesIcons('cardbanks', 'sm');
 //[{"icon_name": "sbi", "icon_url": "https://cashfreelogo.cashfree.com/assets_images/pg/nb/32/sbi.png", "icon_version": "1"}, ...]
 
 ```
