@@ -12,7 +12,8 @@ export default {
         svg: "svg",
     },
     IMAGE_URL: "https://cashfreelogo.cashfree.com/assets_images/pg",
-    DEFAULT_URL: "https://cashfreelogo.cashfree.com/assets_images/pg/nb/svg/default.svg",
+    DEFAULT_URL:
+        "https://cashfreelogo.cashfree.com/assets_images/pg/nb/svg/default.svg",
     PAYMENT_MODE_MAPPING: {
         aus: "nb",
         axis: "nb",
@@ -122,6 +123,18 @@ export default {
         tjb: "nb",
         vijaya: "nb",
         vrb: "nb",
-        zob: "nb"
+        zob: "nb",
+        idbi: "nb",
+        pnsb: "nb",
+        svcb: "nb",
+        cob: "nb",
+        jnb: "nb",
+        usfb: "nb",
+        citi: "nb",
+        payzapp: "wallet",
+        ringpaylater: "paylater",
+        snapmint: "cardless",
+        cashe: "cardless",
+        kreditbee: "cardless"
     },
 };
