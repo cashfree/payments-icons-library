@@ -49,7 +49,13 @@ export const nameMapping = {
         cub: ["city union bank", "cub", "ciubr", "ciubc", "cubc"],
         dbs: ["dbs", "dbs bank", "digibank", "dbssr"],
         deutsche: ["deutsche", "deutsche bank", "deutr"],
-        dhanlakshmi: ["dhanlakshmi", "dhanlakshmi bank", "dlxbr", "dlxbc", "dhanc"],
+        dhanlakshmi: [
+            "dhanlakshmi",
+            "dhanlakshmi bank",
+            "dlxbr",
+            "dlxbc",
+            "dhanc",
+        ],
         equitas: [
             "equitas small finance bank",
             "equitas",
@@ -59,7 +65,7 @@ export const nameMapping = {
         ],
         federal: ["federal bank", "federal", "fdrlr"],
         hdfc: ["hdfc", "hdfc bank", "hdfcr", "hdfcc", "hdfc bank limited"],
-        icici: ["icici", "icici bank", "icicr", "icicc"],
+        icici: ["icici", "icici bank", "icicir", "icicic"],
         idfc: ["idfc", "idfc bank", "idfc first bank", "idfbr"],
         indian: ["indian", "indian bank", "idibr"],
         indusind: ["indusind", "indusind bank", "indbr"],
@@ -137,7 +143,14 @@ export const nameMapping = {
         sur: ["sur", "sur bank", "surat peoples cooperative bank"],
         tamcop: ["tamcop", "tamcop bank"],
         tammerc: ["tammerc", "tammerc bank"],
-        uco: ["uco", "uco bank", "united commercial bank", "ucbar", "ucbac", "ucc"],
+        uco: [
+            "uco",
+            "uco bank",
+            "united commercial bank",
+            "ucbar",
+            "ucbac",
+            "ucc",
+        ],
         union: ["union", "union bank", "ubinr", "ubinc", "ubic"],
         utk: [
             "utk",
@@ -177,7 +190,14 @@ export const nameMapping = {
         vrb: ["vrb", "varachha", "varachha cooperative bank"],
         zob: ["zob", "zoroastrian cooperative bank"],
         airtel: ["airtelnb"],
-        paytm: ["paytmnb"]
+        paytm: ["paytmnb"],
+        idbi: ["idbi", "idbi bank", "idbicorpnb"],
+        pnsb: ["pnsb", "punjab and sind bank"],
+        svcb: ["svcb", "shamrao vittal cooperative bank", "svbc"],
+        cob: ["cob", "cosmos", "cosmos bank"],
+        jnb: ["jnb", "jana small finance bank"],
+        usfb: ["usfb", "ujjivan small finance bank"],
+        citi: ["citi", "citi bank"],
     },
     cardschemes: {
         amex: ["amex"],
@@ -199,6 +219,7 @@ export const nameMapping = {
         simpl: ["simpl"],
         zestmoneypaylater: ["zestmoney", "zestmoneypaylater"],
         mobikwik: ["mobikwikpaylater"],
+        ringpaylater: ["ringpay", "ringpaylater"],
     },
     upi: {
         bhim: ["bhim", "upi"],
@@ -231,8 +252,12 @@ export const nameMapping = {
         paytm: ["paytm"],
         phonepe: ["phonepe"],
         paypal: ["paypal"],
+        payzapp: ["payzapp"],
     },
     cardless: {
         flexipay: ["flexipay"],
+        snapmint: ["snapmint"],
+        cashe: ["cashe"],
+        kreditbee: ["kreditbee"],
     },
 };

@@ -33,7 +33,7 @@
         a.r(b),
             a.d(b, {
                 default: () => l,
-                getIcon: () => s,
+                getIcon: () => t,
                 getIcons: () => o,
                 getModesIcons: () => k,
             });
@@ -110,7 +110,7 @@
                         "hdfcc",
                         "hdfc bank limited",
                     ],
-                    icici: ["icici", "icici bank", "icicr", "icicc"],
+                    icici: ["icici", "icici bank", "icicir", "icicic"],
                     idfc: ["idfc", "idfc bank", "idfc first bank", "idfbr"],
                     indian: ["indian", "indian bank", "idibr"],
                     indusind: ["indusind", "indusind bank", "indbr"],
@@ -241,6 +241,13 @@
                     zob: ["zob", "zoroastrian cooperative bank"],
                     airtel: ["airtelnb"],
                     paytm: ["paytmnb"],
+                    idbi: ["idbi", "idbi bank", "idbicorpnb"],
+                    pnsb: ["pnsb", "punjab and sind bank"],
+                    svcb: ["svcb", "shamrao vittal cooperative bank", "svbc"],
+                    cob: ["cob", "cosmos", "cosmos bank"],
+                    jnb: ["jnb", "jana small finance bank"],
+                    usfb: ["usfb", "ujjivan small finance bank"],
+                    citi: ["citi", "citi bank"],
                 },
                 cardschemes: {
                     amex: ["amex"],
@@ -262,6 +269,7 @@
                     simpl: ["simpl"],
                     zestmoneypaylater: ["zestmoney", "zestmoneypaylater"],
                     mobikwik: ["mobikwikpaylater"],
+                    ringpaylater: ["ringpay", "ringpaylater"],
                 },
                 upi: {
                     bhim: ["bhim", "upi"],
@@ -294,8 +302,14 @@
                     paytm: ["paytm"],
                     phonepe: ["phonepe"],
                     paypal: ["paypal"],
+                    payzapp: ["payzapp"],
                 },
-                cardless: { flexipay: ["flexipay"] },
+                cardless: {
+                    flexipay: ["flexipay"],
+                    snapmint: ["snapmint"],
+                    cashe: ["cashe"],
+                    kreditbee: ["kreditbee"],
+                },
             },
             e = { sm: "32", md: "64", lg: "128", svg: "svg" },
             r = { sm: "png", md: "png", lg: "png", svg: "svg" },
@@ -410,13 +424,25 @@
                 vijaya: "nb",
                 vrb: "nb",
                 zob: "nb",
+                idbi: "nb",
+                pnsb: "nb",
+                svcb: "nb",
+                cob: "nb",
+                jnb: "nb",
+                usfb: "nb",
+                citi: "nb",
+                payzapp: "wallet",
+                ringpaylater: "paylater",
+                snapmint: "cardless",
+                cashe: "cardless",
+                kreditbee: "cardless",
             };
-        function t(a) {
+        function s(a) {
             let b;
             return (b = ["sm", "md", "lg", "svg"].includes(a) ? a : "sm"), b;
         }
-        function s(a, b) {
-            let s = t(b),
+        function t(a, b) {
+            let t = s(b),
                 o = {
                     icon_name: "default",
                     icon_version: "1",
@@ -429,12 +455,12 @@
                       let n = !0;
                       return (
                           Object.keys(b).every(
-                              (t) =>
-                                  !b[t].includes(a) ||
+                              (s) =>
+                                  !b[s].includes(a) ||
                                   ((o = {
-                                      icon_name: t,
+                                      icon_name: s,
                                       icon_version: "1",
-                                      icon_url: `${i}/${c[t]}/${e[s]}/${t}.${r[s]}`,
+                                      icon_url: `${i}/${c[s]}/${e[t]}/${s}.${r[t]}`,
                                   }),
                                   (n = !1),
                                   !1)
@@ -451,13 +477,13 @@
             let e = [];
             return (
                 a.forEach((a) => {
-                    e.push(s(a, n));
+                    e.push(t(a, n));
                 }),
                 e
             );
         }
         function k(a, b) {
-            let s = t(b),
+            let t = s(b),
                 o = [];
             return (
                 Object.keys(n[a]) &&
@@ -465,13 +491,13 @@
                         o.push({
                             icon_name: a,
                             icon_version: "1",
-                            icon_url: `${i}/${c[a]}/${e[s]}/${a}.${r[s]}`,
+                            icon_url: `${i}/${c[a]}/${e[t]}/${a}.${r[t]}`,
                         });
                     }),
                 o
             );
         }
-        const l = { getIcon: s, getIcons: o, getModesIcons: k };
+        const l = { getIcon: t, getIcons: o, getModesIcons: k };
         return b;
     })()
 );
