@@ -151,7 +151,7 @@ export const nameMapping = {
             "ucbac",
             "ucc",
         ],
-        union: ["union", "union bank", "ubinr", "ubinc", "ubic"],
+        union: ["union", "union bank", "ubinr", "ubinc", "ubic", "union bank of india", "ubi"],
         utk: [
             "utk",
             "utk bank",
@@ -215,10 +215,10 @@ export const nameMapping = {
         hdfc: ["hdfc", "hdfcpaylater"],
         kotak: ["kotak", "kotakpaylater"],
         lazypay: ["lazypay"],
-        olapostpaid: ["olapostpaid"],
+        olapostpaid: ["olapostpaid", "ola"],
         simpl: ["simpl"],
         zestmoneypaylater: ["zestmoney", "zestmoneypaylater"],
-        mobikwik: ["mobikwikpaylater"],
+        mobikwik: ["mobikwikpaylater", "mobikwik"],
         ringpaylater: ["ringpay", "ringpaylater"],
     },
     upi: {
