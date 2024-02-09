@@ -32,10 +32,10 @@
             b = {};
         a.r(b),
             a.d(b, {
-                default: () => l,
+                default: () => k,
                 getIcon: () => t,
                 getIcons: () => o,
-                getModesIcons: () => k,
+                getModesIcons: () => l,
             });
         const n = {
                 cardbanks: {
@@ -43,48 +43,42 @@
                     aus: [
                         "au small finance bank",
                         "aus",
-                        "au small finance bank limited",
                         "au small",
                         "au small finance",
                         "au",
                         "aublr",
                         "ausmallccemi",
+                        "ausmall",
                     ],
-                    axis: ["axis bank", "axis", "utibr"],
-                    axisc: ["axisc", "axis corporate", "utibc"],
+                    axis: [
+                        "axis bank",
+                        "axis",
+                        "utibr",
+                        "utib",
+                        "axisc",
+                        "utibc",
+                    ],
                     bdnc: [
                         "bandhan bank",
                         "bandhan",
                         "bdnc",
-                        "bandhan corporate",
                         "bdblc",
-                        "bandhan bank - corporate",
-                    ],
-                    bdnr: [
                         "bdnr",
-                        "bandhan retail",
                         "bdblr",
-                        "bandhan bank - retail banking",
                     ],
                     bobc: [
                         "bobc",
                         "bank of baroda",
                         "barbc",
-                        "bank of baroda - corporate",
                         "bob",
+                        "bobr",
+                        "barbr",
                     ],
-                    bobr: ["bobr", "barbr", "bank of baroda - retail banking"],
                     boi: ["boi", "bank of india", "bkidr", "bkidc", "boic"],
                     bom: ["bom", "bank of maharashtra", "mahbr"],
                     canara: ["canara", "canara bank", "cnrbr"],
                     cbi: ["central bank of india", "cbi", "cbinr"],
-                    csb: [
-                        "csb bank",
-                        "csb",
-                        "catholic syrian bank limited",
-                        "catholic syrian bank",
-                        "csbkr",
-                    ],
+                    csb: ["csb bank", "csb", "catholic syrian bank", "csbkr"],
                     cub: ["city union bank", "cub", "ciubr", "ciubc", "cubc"],
                     dbs: ["dbs", "dbs bank", "digibank", "dbssr"],
                     deutsche: ["deutsche", "deutsche bank", "deutr"],
@@ -94,6 +88,8 @@
                         "dlxbr",
                         "dlxbc",
                         "dhanc",
+                        "dhanlaxmi",
+                        "dhanlaxmi bank",
                     ],
                     equitas: [
                         "equitas small finance bank",
@@ -108,24 +104,31 @@
                         "hdfc bank",
                         "hdfcr",
                         "hdfcc",
-                        "hdfc bank limited",
+                        "hdfccorpnb",
+                        "hdfcretailnb",
                     ],
-                    icici: ["icici", "icici bank", "icicir", "icicic"],
+                    icici: [
+                        "icici",
+                        "icici bank",
+                        "icicir",
+                        "icicic",
+                        "icici corp nb",
+                    ],
                     idfc: ["idfc", "idfc bank", "idfc first bank", "idfbr"],
                     indian: ["indian", "indian bank", "idibr"],
-                    indusind: ["indusind", "indusind bank", "indbr"],
+                    indusind: [
+                        "indusind",
+                        "indusind bank",
+                        "indbr",
+                        "indus ind",
+                    ],
                     iob: [
                         "iob",
                         "iob bank",
                         "indian overseas bank",
-                        "indian overseas bank",
                         "iobar",
-                    ],
-                    iobc: [
                         "iobc",
-                        "iob corporate",
-                        "indian overseas corporate",
-                        "indian overseas bank corporate",
+                        "indian overseas",
                         "iobac",
                     ],
                     jkb: [
@@ -155,30 +158,39 @@
                         "kkbkr",
                         "kotak mahindra bank",
                     ],
-                    lvbc: ["lvbc", "lvb corporate", "lavbc"],
-                    lvbr: ["lvbr", "lvb retail", "lavbr"],
+                    lvbc: [
+                        "lvbc",
+                        "lavbc",
+                        "lvbr",
+                        "lvb",
+                        "lavbr",
+                        "laxmi vilas bank",
+                    ],
                     pnbc: [
                         "pnbc",
-                        "punjab national bank corporate",
                         "pnb",
                         "punjab national bank",
                         "punbc",
-                        "punjab national bank - corporate",
-                    ],
-                    pnbr: [
                         "pnbr",
-                        "punjab national bank retail",
+                        "punjab national bank",
                         "punbr",
-                        "punjab national bank - retail banking",
                     ],
-                    rbl: ["rbl", "ratnakar bank", "rbl bank", "ratnr"],
-                    rblc: ["rbl corporate", "rblc", "ratnc", "rtc"],
+                    rbl: [
+                        "rbl",
+                        "ratnakar bank",
+                        "rbl bank",
+                        "ratnr",
+                        "ratnakar",
+                        "rblc",
+                        "ratnc",
+                        "rtc",
+                    ],
                     saraswat: ["saraswat", "saraswat bank", "srcbr"],
-                    sbi: ["sbi", "state bank of india", "sbinr"],
-                    sbic: [
+                    sbi: [
+                        "sbi",
+                        "state bank of india",
+                        "sbinr",
                         "sbic",
-                        "sbi corporate",
-                        "state bank of india corporate",
                         "sbinc",
                     ],
                     scb: [
@@ -191,8 +203,17 @@
                     shivalik: ["shivalik", "shivalik bank", "smcbr"],
                     sib: ["sib", "south indian bank", "siblr"],
                     sur: ["sur", "sur bank", "surat peoples cooperative bank"],
-                    tamcop: ["tamcop", "tamcop bank"],
-                    tammerc: ["tammerc", "tammerc bank"],
+                    tamcop: [
+                        "tamcop",
+                        "tamcop bank",
+                        "tamilnadu state cooperative bank",
+                        "tamil nadu state cooperative bank",
+                    ],
+                    tammerc: [
+                        "tammerc",
+                        "tammerc bank",
+                        "tamilnad mercantile bank",
+                    ],
                     uco: [
                         "uco",
                         "uco bank",
@@ -219,39 +240,58 @@
                     ],
                     yes: ["yes", "yes bank", "yesbc", "yesbr", "yesc"],
                     allahabad: ["allahabad bank", "allahabad"],
-                    apg: ["andhra pragathi grameena", "apg"],
+                    apg: ["andhra pragathi grameena bank", "apg"],
                     bbk: ["bank of bahrain and kuwait", "bbk"],
-                    bcb: ["bassien catholic coop", "bcb"],
-                    bclc: ["barclays", "barclays corporate", "bclc"],
-                    cpb: ["capital small finance", "cpb"],
+                    bcb: ["bassien catholic cooperative bank", "bcb"],
+                    bclc: ["barclays", "bclc"],
+                    cpb: [
+                        "capital small finance",
+                        "cpb",
+                        "capital small finance bank",
+                    ],
                     dcb: ["dcb", "dcbc", "dcbp", "dcb bank"],
-                    esaf: ["esaf", "esaf small finance", "esf"],
-                    fnc: ["fincare", "fnc"],
+                    esaf: ["esaf", "esaf small finance bank", "esf"],
+                    fnc: ["fincare", "fnc", "fincare bank"],
                     gsb: ["gsb", "gujarat state cooperative bank"],
                     hsb: ["hsb", "hsbc", "hsbc bank"],
-                    jsb: ["jsb", "janata sahakari bank"],
+                    jsb: [
+                        "jsb",
+                        "janata sahakari bank",
+                        "janata sahakari bank pune",
+                    ],
                     kjb: ["kjb", "kalyan janata sahakari bank"],
-                    klb: ["klb", "kalapur commercial cooperative bank"],
+                    klb: ["klb", "kalupur commercial cooperative bank"],
                     kvg: ["kvg", "karnataka vikas grameena bank"],
                     mgb: ["mgb", "maharashtra gramin bank"],
                     msb: ["msb", "mehsana urban cooperative bank"],
                     neb: ["neb", "north east small finance bank"],
                     nkb: ["nkb", "nkgsb", "nkgsb cooperative bank"],
-                    nut: ["nut", "nuthan nagarik sahakari bank"],
+                    nut: ["nut", "nutan nagarik sahakari bank"],
                     pkb: ["pkb", "karnataka gramin bank"],
-                    som: ["som", "sbm bank"],
-                    srb: ["srb", "suryodaya small finance bank"],
+                    som: ["som", "sbm bank", "sbm", "sbm bank india"],
+                    srb: ["srb", "suryoday small finance bank"],
                     sut: ["sut", "sutex", "sutex cooperative bank"],
                     tbb: ["tbb", "thane bharat sahakari bank", "thane bharat"],
-                    tjb: ["tjsb", "tjb", "tjsb sahakari bank"],
+                    tjb: ["tjsb", "tjb", "tjsb sahakari bank", "tjsb bank"],
                     vijaya: ["vijaya", "vijaya bank"],
                     vrb: ["vrb", "varachha", "varachha cooperative bank"],
                     zob: ["zob", "zoroastrian cooperative bank"],
                     airtel: ["airtelnb"],
                     paytm: ["paytmnb"],
-                    idbi: ["idbi", "idbi bank", "idbicorpnb"],
-                    pnsb: ["pnsb", "punjab and sind bank"],
-                    svcb: ["svcb", "shamrao vittal cooperative bank", "svbc"],
+                    idbi: ["idbi", "idbi bank", "idbicorpnb", "idbiretailnb"],
+                    pnsb: [
+                        "pnsb",
+                        "punjab and sind bank",
+                        "punjab & sind bank",
+                    ],
+                    svcb: [
+                        "svcb",
+                        "shamrao vithal cooperative bank",
+                        "svbc",
+                        "shamrao vithal bank",
+                        "shamrao vitthal cooperative bank",
+                        "shamrao vitthal bank",
+                    ],
                     cob: ["cob", "cosmos", "cosmos bank"],
                     jnb: ["jnb", "jana small finance bank"],
                     usfb: ["usfb", "ujjivan small finance bank"],
@@ -272,12 +312,12 @@
                     freecharge: ["freecharge", "freechargepaylater"],
                     hdfc: ["hdfc", "hdfcpaylater"],
                     kotak: ["kotak", "kotakpaylater"],
-                    lazypay: ["lazypay"],
-                    olapostpaid: ["olapostpaid", "ola"],
+                    lazypay: ["lazypay", "lazy pay"],
+                    olapostpaid: ["olapostpaid", "ola", "olamoney post paid"],
                     simpl: ["simpl"],
                     zestmoneypaylater: ["zestmoney", "zestmoneypaylater"],
                     mobikwik: ["mobikwikpaylater", "mobikwik"],
-                    ringpaylater: ["ringpay", "ringpaylater"],
+                    ringpaylater: ["ring", "ringpay", "ringpaylater"],
                 },
                 upi: {
                     bhim: ["bhim", "upi"],
@@ -295,7 +335,7 @@
                         "airtel money",
                         "airtel payments bank",
                     ],
-                    amazon: ["amazon", "amazonpay"],
+                    amazon: ["amazon", "amazonpay", "amazon pay"],
                     freecharge: ["freecharge"],
                     jio: [
                         "jio",
@@ -306,7 +346,7 @@
                         "jpb",
                     ],
                     mobikwik: ["mobikwik"],
-                    ola: ["ola"],
+                    ola: ["ola", "ola money"],
                     paytm: ["paytm"],
                     phonepe: ["phonepe"],
                     paypal: ["paypal"],
@@ -317,6 +357,13 @@
                     snapmint: ["snapmint"],
                     cashe: ["cashe"],
                     kreditbee: ["kreditbee"],
+                    hdfc: ["hdfc"],
+                    kotak: ["kotak"],
+                    idfc: ["idfc"],
+                    icici: ["icici"],
+                    federal: ["federal"],
+                    bobc: ["bob"],
+                    zestmoneypaylater: ["zestmoneyv2"],
                 },
             },
             e = { sm: "32", md: "64", lg: "128", svg: "svg" },
@@ -325,11 +372,8 @@
             c = {
                 aus: "nb",
                 axis: "nb",
-                axisc: "nb",
                 bdnc: "nb",
-                bdnr: "nb",
                 bobc: "nb",
-                bobr: "nb",
                 boi: "nb",
                 bom: "nb",
                 canara: "nb",
@@ -347,20 +391,15 @@
                 indian: "nb",
                 indusind: "nb",
                 iob: "nb",
-                iobc: "nb",
                 jkb: "nb",
                 karnatka: "nb",
                 karur: "nb",
                 kotak: "nb",
                 lvbc: "nb",
-                lvbr: "nb",
                 pnbc: "nb",
-                pnbr: "nb",
                 rbl: "nb",
-                rblc: "nb",
                 saraswat: "nb",
                 sbi: "nb",
-                sbic: "nb",
                 scb: "nb",
                 shivalik: "nb",
                 sib: "nb",
@@ -458,7 +497,27 @@
                         "https://cashfreelogo.cashfree.com/assets_images/pg/nb/svg/default.svg",
                 };
             return a
-                ? ((a = a.toLowerCase()),
+                ? ((a = (function (a) {
+                      return (a = (a = a.toLowerCase())
+                          .replace(/-/g, "")
+                          .replace(/\bltd\b/g, "")
+                          .replace(/\blimited\b/g, "")
+                          .replace(/\bthe\b/g, "")
+                          .replace(/\bcoop\b/g, "cooperative")
+                          .replace(/\bpersonal\b/g, "")
+                          .replace(/\bretail\b/g, "")
+                          .replace(/\bcorporate\b/g, "")
+                          .replace(/\bnet\s*banking\b/g, "")
+                          .replace(/\bnetbanking\b/g, "")
+                          .replace(/\bbanking\b/g, "")
+                          .replace(/\bpaylater\b/g, "")
+                          .replace(/\bpay\s*later\b/g, "")
+                          .replace(/\bcredit\s*card\s*emi\b/g, "")
+                          .replace(/\bdebit\s*card\s*emi\b/g, "")
+                          .replace(/\bcardless\s*emi\b/g, "")
+                          .replace(/\bcardless\b/g, "")
+                          .replace(/ +/g, " ")).trim();
+                  })(a)),
                   Object.values(n).every((b) => {
                       let n = !0;
                       return (
@@ -490,7 +549,7 @@
                 e
             );
         }
-        function k(a, b) {
+        function l(a, b) {
             let t = s(b),
                 o = [];
             return (
@@ -505,7 +564,7 @@
                 o
             );
         }
-        const l = { getIcon: t, getIcons: o, getModesIcons: k };
+        const k = { getIcon: t, getIcons: o, getModesIcons: l };
         return b;
     })()
 );

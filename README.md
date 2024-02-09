@@ -1,15 +1,8 @@
 # Payment Icons by Cashfree Payments
-Payments-icons-library can help you fetch icons for most of the payment methods in different sizes and format.Icons can be fetched individually or in bulk format.
-<div align="left" id="results" class="">
+![License](https://img.shields.io/badge/license-MIT-blue) ![Release](https://img.shields.io/badge/release-v1.1.2-blue) ![TestCases](https://img.shields.io/badge/test_cases-passed-brightgreen) ![Build](https://img.shields.io/badge/build-stable-brightgreen) 
 
-<img src= "https://cashfreelogo.cashfree.com/assets_images/pg/card/svg/amex.svg">
-<img src= "https://cashfreelogo.cashfree.com/assets_images/pg/card/svg/visa.svg">
-<img src= "https://cashfreelogo.cashfree.com/assets_images/pg/card/svg/diners.svg">
-<img src= "https://cashfreelogo.cashfree.com/assets_images/pg/card/svg/maestro.svg">
-<img src= "https://cashfreelogo.cashfree.com/assets_images/pg/card/svg/mastercard.svg">
-<img src= "https://cashfreelogo.cashfree.com/assets_images/pg/card/svg/mastercard.svg">
-<img src= "https://cashfreelogo.cashfree.com/assets_images/pg/card/svg/rupay.svg">
-</div>
+
+Payments-icons-library can help you fetch icons for most of the payment methods in different sizes and format. Icons can be fetched individually or in bulk format.
 
 ## Documentation + Demo
 Please visit [this page](https://cashfree.github.io/payments-icons-library/)

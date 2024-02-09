@@ -2,6 +2,30 @@ import { nameMapping } from "./nameMapping.js";
 import utility from "./utility.js";
 import { getImageSize } from "./helpers.js";
 
+function formatNick(nick) {
+    nick = nick.toLowerCase();
+    nick = nick
+        .replace(/-/g, "")
+        .replace(/\bltd\b/g, "")
+        .replace(/\blimited\b/g, "")
+        .replace(/\bthe\b/g, "")
+        .replace(/\bcoop\b/g, "cooperative")
+        .replace(/\bpersonal\b/g, "")
+        .replace(/\bretail\b/g, "")
+        .replace(/\bcorporate\b/g, "")
+        .replace(/\bnet\s*banking\b/g, "")
+        .replace(/\bnetbanking\b/g, "")
+        .replace(/\bbanking\b/g, "")
+        .replace(/\bpaylater\b/g, "")
+        .replace(/\bpay\s*later\b/g, "")
+        .replace(/\bcredit\s*card\s*emi\b/g, "")
+        .replace(/\bdebit\s*card\s*emi\b/g, "")
+        .replace(/\bcardless\s*emi\b/g, "")
+        .replace(/\bcardless\b/g, "")
+        .replace(/ +/g, " ");
+
+    return nick.trim();
+}
 function getIcon(nick, size) {
     let imageSize = getImageSize(size);
     let returnObj = {
@@ -9,10 +33,10 @@ function getIcon(nick, size) {
         icon_version: "1",
         icon_url: utility.DEFAULT_URL,
     };
-    if(!nick) {
+    if (!nick) {
         return returnObj;
     }
-    nick = nick.toLowerCase();
+    nick = formatNick(nick);
     Object.values(nameMapping).every((paymentMode) => {
         let flag = true;
         Object.keys(paymentMode).every((key) => {
