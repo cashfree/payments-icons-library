@@ -570,25 +570,30 @@
                 };
             return a
                 ? ((a = (function (a) {
-                      return (a = (a = a.toLowerCase())
-                          .replace(/-/g, "")
-                          .replace(/\bltd\b/g, "")
-                          .replace(/\blimited\b/g, "")
-                          .replace(/\bthe\b/g, "")
-                          .replace(/\bcoop\b/g, "cooperative")
-                          .replace(/\bpersonal\b/g, "")
-                          .replace(/\bretail\b/g, "")
-                          .replace(/\bcorporate\b/g, "")
-                          .replace(/\bnet\s*banking\b/g, "")
-                          .replace(/\bnetbanking\b/g, "")
-                          .replace(/\bbanking\b/g, "")
-                          .replace(/\bpaylater\b/g, "")
-                          .replace(/\bpay\s*later\b/g, "")
-                          .replace(/\bcredit\s*card\s*emi\b/g, "")
-                          .replace(/\bdebit\s*card\s*emi\b/g, "")
-                          .replace(/\bcardless\s*emi\b/g, "")
-                          .replace(/\bcardless\b/g, "")
-                          .replace(/ +/g, " ")).trim();
+                      return (
+                          (a = (a = a.toLowerCase())
+                              .replace(/-/g, "")
+                              .replace(/\bltd\b/g, "")
+                              .replace(/\blimited\b/g, "")
+                              .replace(/\bthe\b/g, "")
+                              .replace(/\bcoop\b/g, "cooperative")
+                              .replace(/\bpersonal\b/g, "")
+                              .replace(/\bretail\b/g, "")
+                              .replace(/\bcorporate\b/g, "")
+                              .replace(/\bnet\s*banking\b/g, "")
+                              .replace(/\bnetbanking\b/g, "")
+                              .replace(/\bbanking\b/g, "")
+                              .replace(/\bpaylater\b/g, "")
+                              .replace(/\bpay\s*later\b/g, "")
+                              .replace(/\bcredit\s*card\s*emi\b/g, "")
+                              .replace(/\bdebit\s*card\s*emi\b/g, "")
+                              .replace(/\bcardless\s*emi\b/g, "")
+                              .replace(/\bcardless\b/g, "")
+                              .replace(/ +/g, " ")),
+                          /^[a-z]{4}0[a-z0-9]{6}$/.test(a) &&
+                              (a = a.slice(0, 4)),
+                          a.trim()
+                      );
                   })(a)),
                   Object.values(n).every((b) => {
                       let n = !0;
