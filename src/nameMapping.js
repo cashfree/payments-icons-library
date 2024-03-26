@@ -276,11 +276,11 @@ export const nameMapping = {
     },
     upi: {
         bhim: ["bhim", "upi"],
-        gpay: ["gpay", "googlepay"],
+        gpay: ["gpay", "googlepay", "google pay"],
         paytm: ["paytm"],
         phonepe: ["phonepe"],
         whatsapp: ["whatsapp"],
-        credpay: ["cred", "credpay"],
+        credpay: ["cred", "credpay", "cred pay"],
     },
     wallet: {
         airtel: [
