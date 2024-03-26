@@ -2,7 +2,7 @@
 ![License](https://img.shields.io/badge/license-MIT-blue) ![Release](https://img.shields.io/badge/release-v1.1.2-blue) ![TestCases](https://img.shields.io/badge/test_cases-passed-brightgreen) ![Build](https://img.shields.io/badge/build-stable-brightgreen) ![NPM Downloads](https://img.shields.io/npm/dm/payments-icons-library?label=NPM%20Downloads&color=blue) ![jsDelivr hits (GitHub)](https://img.shields.io/jsdelivr/gh/hm/cashfree/payments-icons-library?label=CDN%20Hits&color=blue) 
 
 
-Payments-icons-library can help you fetch icons for most of the payment methods in different sizes and format. Icons can be fetched individually or in bulk format.
+Payments-icons-library can help you fetch icons for most of the payment methods in different sizes and format. Icons can be fetched individually or in bulk format by entering the names or ifsc code.
 
 <div align="left" id="results" class="">
 

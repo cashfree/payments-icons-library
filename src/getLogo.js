@@ -24,6 +24,11 @@ function formatNick(nick) {
         .replace(/\bcardless\b/g, "")
         .replace(/ +/g, " ");
 
+    // slice to first 4 letters if it is an ifsc code
+    if (/^[a-z]{4}0[a-z0-9]{6}$/.test(nick)) {
+        nick = nick.slice(0, 4);
+    }
+
     return nick.trim();
 }
 function getIcon(nick, size) {
