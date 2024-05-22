@@ -436,11 +436,27 @@
                     federal: ["federal"],
                     bobc: ["bob"],
                     zestmoneypaylater: ["zestmoneyv2"],
+                    tvscredit: ["tvs", "tvscredit", "tvs credit"],
+                },
+                aggregators: {
+                    cashfree: ["cashfree", "cashfreealt"],
+                    paytm: ["paytm"],
+                    razorpay: ["razorpay"],
+                    payu: ["payu"],
+                    techprocess: ["techprocess"],
+                    ccavenue: ["ccavenue", "cc avenue"],
+                    phonepe: ["phonepe"],
+                    hdfc: ["hdfc", "hdfc upi"],
+                    easebuzz: ["easebuzz"],
+                    stripe: ["stripe"],
+                    lyra: ["lyra", "lyraicici"],
+                    atom: ["atom"],
+                    plural: ["plural"],
                 },
             },
             e = { sm: "32", md: "64", lg: "128", svg: "svg" },
-            i = { sm: "png", md: "png", lg: "png", svg: "svg" },
-            r = "https://cashfreelogo.cashfree.com/assets_images/pg",
+            r = { sm: "png", md: "png", lg: "png", svg: "svg" },
+            i = "https://cashfreelogo.cashfree.com/assets_images/pg",
             c = {
                 aus: "nb",
                 axis: "nb",
@@ -493,7 +509,6 @@
                 visa: "card",
                 epaylater: "paylater",
                 freecharge: "paylater",
-                hdfc: "paylater",
                 kotak: "paylater",
                 lazypay: "paylater",
                 olapostpaid: "paylater",
@@ -501,8 +516,6 @@
                 zestmoneypaylater: "paylater",
                 bhim: "upi",
                 gpay: "upi",
-                paytm: "upi",
-                phonepe: "upi",
                 credpay: "upi",
                 whatsapp: "upi",
                 airtel: "wallet",
@@ -555,6 +568,17 @@
                 snapmint: "cardless",
                 cashe: "cardless",
                 kreditbee: "cardless",
+                tvscredit: "cardless",
+                cashfree: "pa",
+                razorpay: "pa",
+                payu: "pa",
+                techprocess: "pa",
+                ccavenue: "pa",
+                easebuzz: "pa",
+                stripe: "pa",
+                lyra: "pa",
+                atom: "pa",
+                plural: "pa",
             };
         function s(a) {
             let b;
@@ -604,7 +628,7 @@
                                   ((l = {
                                       icon_name: s,
                                       icon_version: "1",
-                                      icon_url: `${r}/${c[s]}/${e[t]}/${s}.${i[t]}`,
+                                      icon_url: `${i}/${c[s]}/${e[t]}/${s}.${r[t]}`,
                                   }),
                                   (n = !1),
                                   !1)
@@ -635,7 +659,7 @@
                         l.push({
                             icon_name: a,
                             icon_version: "1",
-                            icon_url: `${r}/${c[a]}/${e[t]}/${a}.${i[t]}`,
+                            icon_url: `${i}/${c[a]}/${e[t]}/${a}.${r[t]}`,
                         });
                     }),
                 l
