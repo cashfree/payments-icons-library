@@ -307,7 +307,7 @@ export const nameMapping = {
         paypal: ["paypal"],
         payzapp: ["payzapp"],
     },
-    cardless: {
+    cardlessemi: {
         flexipay: ["flexipay"],
         snapmint: ["snapmint"],
         cashe: ["cashe"],
@@ -319,5 +319,21 @@ export const nameMapping = {
         federal: ["federal"],
         bobc: ["bob"],
         zestmoneypaylater: ["zestmoneyv2"],
+        tvscredit: ["tvs", "tvscredit", "tvs credit"]
+    },
+    aggregators: {
+        cashfree: ["cashfree", "cashfreealt"],
+        paytm: ["paytm"],
+        razorpay: ["razorpay"],
+        payu: ["payu"],
+        techprocess: ["techprocess"],
+        ccavenue: ["ccavenue", "cc avenue"],
+        phonepe: ["phonepe"],
+        hdfc: ["hdfc", "hdfc upi"],
+        easebuzz: ["easebuzz"],
+        stripe: ["stripe"],
+        lyra: ["lyra", "lyraicici"],
+        atom: ["atom"],
+        plural: ["plural"],
     },
 };
