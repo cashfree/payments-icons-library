@@ -424,7 +424,7 @@
                     paypal: ["paypal"],
                     payzapp: ["payzapp"],
                 },
-                cardlessemi: {
+                cardless: {
                     flexipay: ["flexipay"],
                     snapmint: ["snapmint"],
                     cashe: ["cashe"],
