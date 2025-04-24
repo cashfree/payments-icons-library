@@ -370,7 +370,7 @@
                     citi: ["citi", "citi bank"],
                 },
                 cardschemes: {
-                    amex: ["amex"],
+                    amex: ["amex", "american express"],
                     diners: ["diners"],
                     discover: ["discover"],
                     jcb: ["jcb"],
@@ -423,6 +423,7 @@
                     phonepe: ["phonepe"],
                     paypal: ["paypal"],
                     payzapp: ["payzapp"],
+                    cashfree: ["cashfreepay"],
                 },
                 cardless: {
                     flexipay: ["flexipay"],
@@ -456,8 +457,8 @@
             },
             e = { sm: "32", md: "64", lg: "128", svg: "svg" },
             r = { sm: "png", md: "png", lg: "png", svg: "svg" },
-            i = "https://cashfreelogo.cashfree.com/assets_images/pg",
-            c = {
+            c = "https://cashfreelogo.cashfree.com/assets_images/pg",
+            i = {
                 aus: "nb",
                 axis: "nb",
                 bdnc: "nb",
@@ -595,7 +596,7 @@
             return a
                 ? ((a = (function (a) {
                       return (
-                          (a = (a = a.toLowerCase())
+                          (a = (a = a?.toLowerCase() || "")
                               .replace(/-/g, "")
                               .replace(/\bltd\b/g, "")
                               .replace(/\blimited\b/g, "")
@@ -628,7 +629,7 @@
                                   ((l = {
                                       icon_name: s,
                                       icon_version: "1",
-                                      icon_url: `${i}/${c[s]}/${e[t]}/${s}.${r[t]}`,
+                                      icon_url: `${c}/${i[s]}/${e[t]}/${s}.${r[t]}`,
                                   }),
                                   (n = !1),
                                   !1)
@@ -659,7 +660,7 @@
                         l.push({
                             icon_name: a,
                             icon_version: "1",
-                            icon_url: `${i}/${c[a]}/${e[t]}/${a}.${r[t]}`,
+                            icon_url: `${c}/${i[a]}/${e[t]}/${a}.${r[t]}`,
                         });
                     }),
                 l

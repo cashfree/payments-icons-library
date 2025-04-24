@@ -1,6 +1,6 @@
 {
     "name": "payments-icons-library",
-    "version": "1.1.4",
+    "version": "1.1.5",
     "description": "Payments Icons Library can help you fetch icons for most of the payment methods in different sizes and format.Icons can be fetched individually or in bulk format by entering the names or ifsc code.",
     "main": "dist/image-library.js",
     "scripts": {

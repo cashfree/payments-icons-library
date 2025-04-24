@@ -253,7 +253,7 @@ export const nameMapping = {
         citi: ["citi", "citi bank"],
     },
     cardschemes: {
-        amex: ["amex"],
+        amex: ["amex", "american express"],
         diners: ["diners"],
         discover: ["discover"],
         jcb: ["jcb"],
@@ -306,6 +306,7 @@ export const nameMapping = {
         phonepe: ["phonepe"],
         paypal: ["paypal"],
         payzapp: ["payzapp"],
+        cashfree: ["cashfreepay"],
     },
     cardless: {
         flexipay: ["flexipay"],

@@ -3,7 +3,7 @@ import utility from "./utility.js";
 import { getImageSize } from "./helpers.js";
 
 function formatNick(nick) {
-    nick = nick.toLowerCase();
+    nick = nick?.toLowerCase() || "";
     nick = nick
         .replace(/-/g, "")
         .replace(/\bltd\b/g, "")
