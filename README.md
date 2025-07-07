@@ -1,19 +1,8 @@
 # Payment Icons by Cashfree Payments
-![License](https://img.shields.io/badge/license-MIT-blue) ![Release](https://img.shields.io/badge/release-v1.1.2-blue) ![TestCases](https://img.shields.io/badge/test_cases-passed-brightgreen) ![Build](https://img.shields.io/badge/build-stable-brightgreen) ![NPM Downloads](https://img.shields.io/npm/dm/payments-icons-library?label=NPM%20Downloads&color=blue) ![jsDelivr hits (GitHub)](https://img.shields.io/jsdelivr/gh/hm/cashfree/payments-icons-library?label=CDN%20Hits&color=blue) 
+![License](https://img.shields.io/badge/license-MIT-blue) ![GitHub Release](https://img.shields.io/github/v/release/cashfree/payments-icons-library?color=blue) ![TestCases](https://img.shields.io/badge/test_cases-passed-brightgreen) ![Build](https://img.shields.io/badge/build-stable-brightgreen) ![NPM Downloads](https://img.shields.io/npm/dm/payments-icons-library?label=NPM%20Downloads&color=blue) ![jsDelivr hits (GitHub)](https://img.shields.io/jsdelivr/gh/hm/cashfree/payments-icons-library?label=CDN%20Hits&color=blue) 
 
 
-Payments-icons-library can help you fetch icons for most of the payment methods in different sizes and format. Icons can be fetched individually or in bulk format by entering the names or ifsc code.
-
-<div align="left" id="results" class="">
-
-<img src= "https://cashfreelogo.cashfree.com/assets_images/pg/card/svg/amex.svg">
-<img src= "https://cashfreelogo.cashfree.com/assets_images/pg/card/svg/visa.svg">
-<img src= "https://cashfreelogo.cashfree.com/assets_images/pg/card/svg/diners.svg">
-<img src= "https://cashfreelogo.cashfree.com/assets_images/pg/card/svg/maestro.svg">
-<img src= "https://cashfreelogo.cashfree.com/assets_images/pg/card/svg/mastercard.svg">
-<img src= "https://cashfreelogo.cashfree.com/assets_images/pg/card/svg/mastercard.svg">
-<img src= "https://cashfreelogo.cashfree.com/assets_images/pg/card/svg/rupay.svg">
-</div>
+Payments-icons-library can help you fetch icons for most of the payment options in different sizes and formats. Icons can be fetched individually or in bulk format by entering the names or ifsc code.
 
 ## Documentation + Demo
 Please visit [this page](https://cashfree.github.io/payments-icons-library/)
