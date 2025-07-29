@@ -286,7 +286,7 @@ export const nameMapping = {
         phonepe: ["phonepe", "com.phonepe.app"],
         whatsapp: ["whatsapp", "com.whatsapp"],
         credpay: ["cred", "credpay", "cred pay", "com.dreamplug.androidapp"],
-        amazon: ["amazonpay", "in.amazon.mShop.android.shopping"],
+        amazon: ["amazonpay", "in.amazon.mshop.android.shopping"],
         payzapp: ["payzapp", "com.hdfcbank.payzapp"],
         icici: ["icici", "com.csam.icici.bank.imobile"],
         indusind: ["indusind", "com.fss.indus"],
