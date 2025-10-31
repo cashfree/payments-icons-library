@@ -1,6 +1,6 @@
 export const nameMapping = {
     cardbanks: {
-        amex: ["amexccemi", "scbl"],
+        amex: ["amexccemi"],
         aus: [
             "au small finance bank",
             "aus",
