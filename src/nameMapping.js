@@ -314,6 +314,13 @@ export const nameMapping = {
         shriramone: ["shriramone", "shriram one", "com.shriram.one"],
         niyo: ["niyo", "finance.global.travel.niyo"],
         moneyview: ["moneyview", "com.whizdm.moneyview.loans"],
+        simplypay: [
+            "simplypay",
+            "simply pay",
+            "com.mgs.hsbcupi",
+            "hsbc simply pay",
+            "hsbc simplypay",
+        ],
     },
     wallet: {
         airtel: [
