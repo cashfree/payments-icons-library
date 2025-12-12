@@ -444,6 +444,13 @@
                     ],
                     niyo: ["niyo", "finance.global.travel.niyo"],
                     moneyview: ["moneyview", "com.whizdm.moneyview.loans"],
+                    simplypay: [
+                        "simplypay",
+                        "simply pay",
+                        "com.mgs.hsbcupi",
+                        "hsbc simply pay",
+                        "hsbc simplypay",
+                    ],
                 },
                 wallet: {
                     airtel: [
@@ -577,6 +584,7 @@
                 shriramone: "upi",
                 niyo: "upi",
                 moneyview: "upi",
+                simplypay: "upi",
                 airtel: "wallet",
                 amazon: "wallet",
                 freecharge: "wallet",
