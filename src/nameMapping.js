@@ -321,6 +321,17 @@ export const nameMapping = {
             "hsbc simply pay",
             "hsbc simplypay",
         ],
+        bharatpe: [
+            "bharatpe",
+            "bharat pe",
+            "com.postpe.app",
+            "in.postpe.app",
+        ],
+        tataneu: [
+            "tataneu",
+            "tata neu",
+            "com.tatadigital.tcp",
+        ],
     },
     wallet: {
         airtel: [

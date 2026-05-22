@@ -88,6 +88,8 @@ export default {
         niyo: "upi",
         moneyview: "upi",
         simplypay: "upi",
+        bharatpe: "upi",
+        tataneu: "upi",
         airtel: "wallet",
         amazon: "wallet",
         freecharge: "wallet",

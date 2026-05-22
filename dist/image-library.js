@@ -451,6 +451,17 @@
                         "hsbc simply pay",
                         "hsbc simplypay",
                     ],
+                    bharatpe: [
+                        "bharatpe",
+                        "bharat pe",
+                        "com.postpe.app",
+                        "in.postpe.app",
+                    ],
+                    tataneu: [
+                        "tataneu",
+                        "tata neu",
+                        "com.tatadigital.tcp",
+                    ],
                 },
                 wallet: {
                     airtel: [
@@ -585,6 +596,8 @@
                 niyo: "upi",
                 moneyview: "upi",
                 simplypay: "upi",
+                bharatpe: "upi",
+                tataneu: "upi",
                 airtel: "wallet",
                 amazon: "wallet",
                 freecharge: "wallet",
