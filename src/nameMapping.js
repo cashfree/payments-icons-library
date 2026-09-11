@@ -332,6 +332,10 @@ export const nameMapping = {
             "tata neu",
             "com.tatadigital.tcp",
         ],
+        snapmint: [
+            "snap mint",
+            "com.snapmint.customerapp",
+        ],
     },
     wallet: {
         airtel: [

@@ -90,6 +90,7 @@ export default {
         simplypay: "upi",
         bharatpe: "upi",
         tataneu: "upi",
+        snapmint: "upi",
         airtel: "wallet",
         amazon: "wallet",
         freecharge: "wallet",
